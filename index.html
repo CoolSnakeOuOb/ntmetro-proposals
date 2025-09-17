@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新北捷運跨域提案激勵計畫</title>
+    <link rel="icon" href="images/logo2.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-left">
+            <img src="images\logo.png" alt="Logo" class="logo"> <span class="site-title">新北捷運跨域提案激勵計畫</span>
+        </div>
+        <nav class="navbar-right">
+            <ul>
+                <li><a href="#">最新消息</a></li>
+                <li><a href="#">重要時程</a></li>
+                <li><a href="#">歷年紀錄</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+<div class="category-grid three-columns">
+    <div class="category-card maintenance">
+        <div class="category-header">
+            <h3>維修效率提升組 (5)</h3>
+        </div>
+        <ul class="proposal-list">
+            <li data-proposal-id="m01">輕軌行控中心2.0</li>
+            <li data-proposal-id="m02">安坑輕軌道岔溫度監控設置</li>
+            <li data-proposal-id="m03">車底設備拆裝縮短工時治具提升計畫</li>
+            <li data-proposal-id="m04">LINE 官方帳號自動回應化的故障知識入口</li>
+            <li data-proposal-id="m05">輕軌列車維修品質提升計畫</li>
+        </ul>
+    </div>
+
+    <div class="category-card digital-transformation">
+        <div class="category-header">
+            <h3>AI應用暨數位轉型組 (7)</h3>
+        </div>
+        <ul class="proposal-list">
+            <li data-proposal-id="d05">AI列車維修行動助手</li>
+            <li data-proposal-id="d06">LINE BOT 使用於物料管理應用之研究</li>
+            <li data-proposal-id="d07">新人數位化培訓與 AI 輔助 Onboarding 流程</li>
+            <li data-proposal-id="d08">結合 AI 影像辨識技術之捷運現場安全監控系統</li>
+            <li data-proposal-id="d09">客服資料庫系統</li>
+            <li data-proposal-id="d11">輔助行控決策系統</li>
+            <li data-proposal-id="d12">預算暨政府採購法 AI 助理</li>
+        </ul>
+    </div>
+
+    <div class="category-card human-resources">
+        <div class="category-header">
+            <h3>高效人力運用策略組 (4)</h3>
+        </div>
+        <ul class="proposal-list">
+            <li data-proposal-id="h01">重點工作聚焦實驗計畫</li>
+            <li data-proposal-id="h02">維修人力整合提升計畫</li>
+            
+            <li data-proposal-id="h04">新北捷運列車即時動態計畫</li>
+            <li data-proposal-id="h05">利用AI工具將行事曆及各項提醒自動化定時發送至群組</li>
+        </ul>
+    </div>
+</div>
+    </main>
+
+    <div id="proposal-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button class="close-button">&times;</button>
+            <h2 id="modal-title">提案標題</h2>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

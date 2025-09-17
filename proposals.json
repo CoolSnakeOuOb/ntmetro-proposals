@@ -1,0 +1,66 @@
+{
+    "m01": {
+        "title": "輕軌行控中心2.0",
+        "contentHTML": "<iframe src='proposal-files/輕軌行控中心2.0.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "d05": {
+        "title": "AI列車維修行動助手",
+        "contentHTML": "<iframe src='proposal-files/AI列車維修行動助手.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "d06": {
+        "title": "LINE BOT 使用於物料管理應用之研究",
+        "contentHTML": "<iframe src='proposal-files/LINE BOT 使用於物料管理應用之研究.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "h01": {
+        "title": "重點工作聚焦實驗計畫",
+        "contentHTML": "<iframe src='proposal-files/重點工作聚焦實驗計畫.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "h02": {
+        "title": "維修人力整合提升計畫",
+        "contentHTML": "<iframe src='proposal-files/維修人力整合提升計畫.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "m02": {
+        "title": "安坑輕軌道溫度監控設置",
+        "contentHTML": "<iframe src='proposal-files/安坑輕軌道溫度監控設置.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "m03": {
+        "title": "車底設備拆裝縮短工時治具提升計畫",
+        "contentHTML": "<iframe src='proposal-files/車底設備拆裝縮短工時治具提升計畫.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "d11": {
+        "title": "輔助行控決策系統",
+        "contentHTML": "<iframe src='proposal-files/輔助行控決策系統.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "m05": {
+        "title": "輕軌列車維修品質提升計畫",
+        "contentHTML": "<iframe src='proposal-files/輕軌列車維修品質提升計畫.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "m04": {
+        "title": "LINE 官方帳號自動回應化的故障知識入口",
+        "contentHTML": "<iframe src='proposal-files/LINE 官方帳號自動回應化的故障知識入口.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "d08": {
+        "title": "結合 AI 影像辨識技術之捷運現場安全監控系統",
+        "contentHTML": "<iframe src='proposal-files/結合 AI 影像辨識技術之捷運現場安全監控系統.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "d09": {
+        "title": "客服資料庫系統",
+        "contentHTML": "<iframe src='proposal-files/客服資料庫系統.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "h05": {
+        "title": "利用AI工具將行事曆及各項提醒自動化定時發送至群組",
+        "contentHTML": "<iframe src='proposal-files/利用AI工具將行事曆及各項提醒自動化定時發送至群組.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "h04": {
+        "title": "新北捷運列車即時動態計畫",
+        "contentHTML": "<iframe src='proposal-files/新北捷運列車即時動態計畫.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "d12": {
+        "title": "預算暨政府採購法 AI 助理",
+        "contentHTML": "<iframe src='proposal-files/預算暨政府採購法 AI 助理.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    },
+    "d07": {
+        "title": "新人數位化培訓與 AI 輔助 Onboarding 機制（MONA 專案）",
+        "contentHTML": "<iframe src='proposal-files/新人數位化培訓與 AI 輔助 Onboarding 機制（MONA 專案）.pdf#toolbar=0&navpanes=0&view=FitH' width='100%' height='800px' style='border: none;'></iframe>"
+    }
+}

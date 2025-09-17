@@ -1,0 +1,257 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* 為 Logo 和標題增加間距 */
+}
+
+.navbar .logo {
+    height: 40px; /* 設定 Logo 的固定高度 */
+    width: auto;  /* 讓寬度自動縮放以維持比例 */
+    display: block;
+}
+
+.navbar .site-title {
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.navbar-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-right ul li {
+    margin-left: 25px;
+}
+
+.navbar-right ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+.navbar-right ul li a:hover {
+    color: #007bff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.category-grid.three-columns {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.category-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-header {
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.category-header h3 {
+    margin: 0;
+    font-size: 1.3em;
+}
+
+/* 類別顏色 */
+.maintenance .category-header { background-color: #f1c40f; }
+.digital-transformation .category-header { background-color: #3498db; }
+.human-resources .category-header { background-color: #2ecc71; }
+
+.proposal-list {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.proposal-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95em;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.proposal-list li:last-child {
+    border-bottom: none;
+}
+
+.proposal-list li:hover {
+    color: #007bff;
+}
+
+/* Modal 彈出視窗樣式 */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2000;
+    text-align: center; /* 幫助水平置中 */
+
+    /* 關鍵：讓這個外層容器自己滾動 */
+    overflow-y: auto;
+    
+    /* 關鍵：在容器的上下方留出足夠的空間 */
+    padding: 60px 20px;
+
+    box-sizing: border-box;
+}
+
+/* ▼▼▼ 請用這段新的樣式，取代舊的 .modal-content ▼▼▼ */
+.modal-content {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+    /* 關鍵：讓視窗恢復成正常的區塊，並自動水平置中 */
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left; /* 將文字對齊方式恢復成靠左 */
+
+    /* 我們不再需要限制視窗的高度或讓它自己滾動 */
+    /* overflow-y: auto; <-- 刪除 */
+    /* max-height: calc(100vh - 80px); <-- 刪除 */
+
+    box-sizing: border-box;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #888;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: #333;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.hidden .modal-content {
+    transform: translateY(-50px);
+}
+
+/* Modal 內部詳細內容的樣式 */
+#modal-body h3 {
+    font-size: 1.2em;
+    color: #34495e;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#modal-body h4 {
+    font-size: 1.05em;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#modal-body p, #modal-body li {
+    line-height: 1.8;
+    color: #555;
+}
+
+#modal-body ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#modal-body ul li {
+    margin-bottom: 8px;
+}
+
+/* RWD for three columns */
+@media (max-width: 992px) {
+    .category-grid.three-columns {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .category-grid.three-columns {
+        grid-template-columns: 1fr;
+    }
+}
